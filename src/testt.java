@@ -8,5 +8,20 @@ public class testt {
         System.out.println("dzien dobry " + name + " !");
         int number = 14;
         System.out.println(number);
+
+        switch (number){
+            case 1:
+                System.out.println("asasassa");
+                break;
+            case 2: {
+                System.out.println("adadad");
+                break;
+            }
+            default:
+                System.out.println("default");
+
+        }
+
+
     }
 }
